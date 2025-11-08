@@ -7,10 +7,12 @@ import { X, Download } from "lucide-react";
  * Certificates sample data — replace img/file paths with files from /public/certs/
  */
 const CERTS = [
-  { id: "c1", title: "Frontend Web Development", issuer: "Coursera", date: "Apr 2024", img: "/certs/cert1.jpg", file: "/certs/cert1.pdf" },
-  { id: "c2", title: "React - Complete Guide", issuer: "Udemy", date: "Dec 2023", img: "/certs/cert2.jpg", file: "/certs/cert2.pdf" },
+  { id: "c1", title: "Frontend Web Development", issuer: "IBM", date: "Apr 2024", img: "/certs/cert1.jpg", file: "/certs/cert1.pdf" },
+  { id: "c2", title: "React - Complete Guide", issuer: "GeeksforGeeks", date: "Dec 2023", img: "/certs/cert2.jpg", file: "/certs/cert2.pdf" },
   { id: "c3", title: "DSA Basics", issuer: "HackerRank", date: "Jan 2024", img: "/certs/cert3.jpg", file: "/certs/cert3.pdf" },
   { id: "c4", title: "Responsive Design", issuer: "freeCodeCamp", date: "Jun 2023", img: "/certs/cert4.jpg", file: "/certs/cert4.pdf" },
+  { id: "c5", title: "AWS AI-ML", issuer: "Amazon", date: "Jun 2023", img: "/certs/cert4.jpg", file: "/certs/cert4.pdf" },
+  { id: "c6", title: "Python", issuer: "HackerRank", date: "Jun 2023", img: "/certs/cert4.jpg", file: "/certs/cert4.pdf" },
   // add more items as needed
 ];
 

@@ -6,8 +6,8 @@ const timeline = [
   {
     id: 1,
     role: 'Frontend Intern',
-    org: 'Example Co',
-    date: 'Jun 2024 — Aug 2024',
+    org: 'Edubot Technologies',
+    date: 'Jan 2025 — Aug 2025',
     desc: 'Built reusable UI components, improved accessibility, and optimized bundle size. Collaborated with designers and backend to ship features weekly.'
   },
   {
@@ -23,6 +23,13 @@ const timeline = [
     org: 'University Club',
     date: 'Aug 2023 — Dec 2023',
     desc: 'Led a small team to design and deliver the club website, added event registration, and handled deployment and CI.'
+  },
+  {
+    id: 4,
+    role: 'Campus Course Work',
+    org: 'Pragati Engineering college',
+    date: 'Aug 2023 — Present',
+    desc: 'Learnig new things Day-By-Day which led me here ,my course work includes C language, DBMS , OS, Advanced DSA,'
   }
 ]
 
