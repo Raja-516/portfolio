@@ -34,7 +34,7 @@ export default function About() {
           transition={{ duration: 0.6 }}
         >
           <p className="text-slate-300 text-lg leading-relaxed">
-            I’m a passionate <span className="text-emerald-400 font-semibold">Frontend Developer</span> 
+            I’m a passionate <span className="text-emerald-400 font-semibold">Frontend Developer  </span> 
             with a deep interest in crafting responsive, accessible, and visually beautiful user experiences.
             I love turning ideas into reality through clean code and smooth interactions.
           </p>

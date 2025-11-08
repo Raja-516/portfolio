@@ -1,7 +1,7 @@
 export const projects = [
   {
     id:1,
-    title:'Project Alpha',
+    title:'Doctor Appintment',
     desc:'Responsive single-page app demonstrating animations and layout.',
     tech:['React','Tailwind','Vite'],
     img:'/assets/project-alpha.jpg',
@@ -28,7 +28,7 @@ export const projects = [
   }
   ,
   {
-    id:1,
+    id:4,
     title:'Project Alpha',
     desc:'Responsive single-page app demonstrating animations and layout.',
     tech:['React','Tailwind','Vite'],
@@ -37,7 +37,7 @@ export const projects = [
     live:'https://example.com'
   },
   {
-    id:2,
+    id:5,
     title:'Portfolio Generator',
     desc:'Generates portfolio sites from JSON data.',
     tech:['React','Node'],
@@ -46,7 +46,7 @@ export const projects = [
     live:null
   },
   {
-    id:3,
+    id:6,
     title:'Todo App',
     desc:'CRUD example with local storage and animations.',
     tech:['React','Tailwind'],

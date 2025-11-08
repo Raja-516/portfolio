@@ -47,12 +47,12 @@ export default function Header(){
           ))}
           <Link to="/projects" className="hover:text-white">All Projects</Link>
           <a href="/resume.pdf" download className="px-3 py-1 rounded-md border border-slate-700 text-sm hover:bg-slate-800/40">Resume</a>
-          <ThemeToggle />
+          {/* <ThemeToggle /> */}
         </nav>
 
         {/* mobile */}
         <div className="md:hidden flex items-center gap-2">
-          <ThemeToggle />
+          {/* <ThemeToggle /> */}
           <button onClick={() => setOpen(v => !v)} aria-label="Toggle menu" className="p-2 rounded-md border border-slate-700">
             {open ? <X size={18}/> : <Menu size={18}/>}
           </button>

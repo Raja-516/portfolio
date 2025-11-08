@@ -23,17 +23,17 @@ export default function Hero() {
           <motion.div {...enter} className="md:col-span-2">
             <p className="text-sm text-slate-400 mb-4">Hi, my name is</p>
 
-            <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold leading-tight tracking-tight text-slate-100">
-              <span className="block">
+            <h6 className="text-5xl sm:text-6xl md:text-5xl font-extrabold leading-tight tracking-tight text-slate-100">
                 <span className="bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400 text-transparent bg-clip-text">
-                  Your Name
-                </span>
+                  AKULA RAJA
+                
               </span>
 
-              <span className="block mt-3 text-2xl sm:text-3xl font-medium text-slate-300">
-                Frontend Developer
+              <span className="block mt-3 text-3xl sm:text-3xl font-medium text-violet-300">
+                Software Developer
               </span>
-            </h1>
+              
+            </h6>
 
             <p className="mt-6 max-w-3xl text-lg text-slate-300 leading-relaxed">
               I build clean, fast, and accessible user interfaces with React &
@@ -43,14 +43,18 @@ export default function Hero() {
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-4">
-              <button
-                onClick={() => scrollToId("projects")}
-                className="inline-flex items-center gap-3 px-5 py-2 rounded-full bg-emerald-400 text-black font-semibold shadow-sm hover:brightness-95 transition"
-                aria-label="See my work"
-              >
-                See my work
-                <ArrowRight size={16} />
-              </button>
+             <button
+  onClick={() => scrollToId("projects")}
+  className="inline-flex items-center gap-3 px-6 py-2 rounded-full 
+             bg-emerald-400 text-black font-semibold 
+             transition-all duration-500 
+             hover:brightness-110 hover:shadow-[0_0_15px_rgba(52,211,153,0.6)]"
+  aria-label="See my work"
+>
+  See my work
+  <ArrowRight size={16} />
+</button>
+
 
               <a
                 href="/resume.pdf"
@@ -71,7 +75,7 @@ export default function Hero() {
             {/* small social links similar to roopesh: inline minimal */}
             <div className="mt-6 flex items-center gap-4">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/Raja-516"
                 className="text-slate-300 hover:text-slate-100"
                 aria-label="GitHub"
                 target="_blank"
@@ -80,13 +84,26 @@ export default function Hero() {
                 <Github size={18} />
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/raja-akula-4339292a3"
                 className="text-slate-300 hover:text-slate-100"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Linkedin size={18} />
+              </a>
+              <a
+              href="https://leetcode.com/u/23A35A0516/"
+              className="group flex items-center justify-center"
+              aria-label="LeetCode"
+              target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://leetcode.com/_next/static/images/logo-dark-c96c407d175e36c81e236fcfdd682a0b.png"
+                  alt="LeetCode"
+                  className="w-5 h-5 opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-transform duration-300"
+                />
               </a>
             </div>
           </motion.div>

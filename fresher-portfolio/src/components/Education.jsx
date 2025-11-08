@@ -6,23 +6,23 @@ const educationList = [
     id: 1,
     degree: "Bachelor of Technology (B.Tech)",
     branch: "Computer Science and Engineering",
-    university: "Your University Name",
-    year: "2022 – 2026",
-    desc: "Currently pursuing my undergraduate degree with a strong foundation in web technologies, programming, and software development.",
+    university: "Pragati Engineering College,Surempalem",
+    year: "2023 – 2026",
+    desc: "Currently pursuing my undergraduate degree with a strong foundation in web FrameWorks, programming, and software development.",
   },
   {
     id: 2,
-    degree: "Higher Secondary Education (HSC)",
-    branch: "Science Stream",
-    university: "Your School / Board Name",
-    year: "2020 – 2022",
-    desc: "Completed my higher secondary education focusing on Computer Science, Mathematics, and Physics.",
+    degree: "Technical Diploma ",
+    branch: "Computer Science & Engineering",
+    university: "Andhra Polytechnic College,Kakinada",
+    year: "2020 – 2023",
+    desc: "Completed my higher secondary education focusing on Computer Science,web technologies , Mathematics, and Physics.",
   },
   {
     id: 3,
     degree: "Secondary School (SSC)",
     branch: "General Curriculum",
-    university: "Your School Name",
+    university: "Little Soldiers",
     year: "2019 – 2020",
     desc: "Built foundational academic skills with focus on mathematics and logical reasoning.",
   },
@@ -74,7 +74,7 @@ export default function Education() {
             <div className="text-xs text-slate-400 mb-2">{edu.year}</div>
 
             {/* Degree */}
-            <h3 className="font-semibold text-lg bg-gradient-to-r from-violet-400 via-fuchsia-400 to-pink-400 text-transparent bg-clip-text">
+            <h3 className="font-semibold text-lg bg-gradient-to-r text-green-400  text-transparent bg-clip-text">
               {edu.degree}
             </h3>
 
