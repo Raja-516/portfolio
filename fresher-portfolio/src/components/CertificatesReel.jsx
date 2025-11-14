@@ -27,12 +27,10 @@ export default function CertificatesReel() {
         <header className="mb-8 text-center">
           <h2 className="text-3xl font-extrabold">
             <span className="bg-gradient-to-r from-sky-400 via-teal-400 to-emerald-400 text-transparent bg-clip-text">
-              Certificates Reel
+              Certificates 
             </span>
           </h2>
-          <p className="mt-2 text-sm text-slate-400 max-w-2xl mx-auto">
-            Auto-scrolling certificate reel — hover to pause, click any card to preview or download.
-          </p>
+          
         </header>
 
         {/* Reel container */}

@@ -94,15 +94,6 @@ export default function BackgroundSymbols() {
             // To avoid TypeScript/runtime mismatch, we pass `style` prop below instead of earlier one.
             // (We'll pass a new object)
             // For readability keep code explicit:
-            style={{
-              left: `${left}%`,
-              top: `${top}%`,
-              fontSize: `${size}rem`,
-              opacity,
-              color: `hsl(${200 + hueShift} 80% 70%)`,
-              filter: "drop-shadow(0 6px 18px rgba(99,102,241,0.06)) blur(0.25px)",
-              transformOrigin: "center center",
-            }}
             // combine motion value y into inline style using `style` prop below (works)
           >
             {/* motion.div wrapper to accept scroll-linked y transform */}

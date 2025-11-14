@@ -18,10 +18,10 @@ export default function Home(){
       <Hero />
       <SkillOverview />
       <Projects />
-      <Education />
-      <CertificatesReel />
       <Experience />
       <TechGrid />
+      <CertificatesReel />
+      <Education />
       <About />
       <Contact />
     </>

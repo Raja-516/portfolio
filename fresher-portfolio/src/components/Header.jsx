@@ -38,14 +38,33 @@ export default function Header(){
     >
       <div className="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between">
         <div className="flex items-center gap-4">
-          <a className="font-semibold text-lg" href="/" onClick={(e)=>{ e.preventDefault(); nav('/')}}>YourName</a>
+          <a
+  className="flex items-center gap-2 px-3 py-1 rounded-xl border border-violet-500/30 bg-violet-500/10 text-violet-300 font-semibold shadow-sm hover:bg-violet-500/20 transition"
+  href="/"
+  onClick={(e) => {
+    e.preventDefault();
+    nav("/");
+  }}
+>
+  AR <span>✔️</span>
+</a>
+
         </div>
 
-        <nav className="hidden md:flex items-center gap-6 text-sm text-slate-300">
+        <nav className="hidden md:flex items-center gap-6 text-l text-bold  text-white">
           {navItems.map(item => (
-            <button key={item.id} onClick={() => handleClick(item.href, item.id)} className="hover:text-white">{item.label}</button>
+            <button
+  key={item.id}
+  onClick={() => handleClick(item.href, item.id)}
+  className="relative group hover:text-violet-300"
+>
+  {item.label}
+
+  <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-gradient-to-r from-pink-500 via-violet-400 to-blue-500 transition-all duration-300 group-hover:w-full"></span>
+</button>
+
           ))}
-          <Link to="/projects" className="hover:text-white">All Projects</Link>
+          <Link to="/projects" className="hover:text-green-500">All Projects</Link>
           <a href="/resume.pdf" download className="px-3 py-1 rounded-md border border-slate-700 text-sm hover:bg-slate-800/40">Resume</a>
           {/* <ThemeToggle /> */}
         </nav>

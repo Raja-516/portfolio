@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import usePrefersReducedMotion from "../hooks/usePrefersReducedMotion";
 import { scrollToId } from "../utils/smoothScroll";
-import { ArrowRight, DownloadCloud, Github, Linkedin } from "lucide-react";
+import { ArrowRight, DownloadCloud, Github, Linkedin ,Instagram} from "lucide-react";
 
 export default function Hero() {
   const reduced = usePrefersReducedMotion();
@@ -105,6 +105,16 @@ export default function Hero() {
                   className="w-5 h-5 opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-transform duration-300"
                 />
               </a>
+              <a
+  href="https://www.instagram.com/your_instagram_here"
+  className="text-slate-300 hover:text-slate-100 transition-colors"
+  aria-label="Instagram"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Instagram size={18} />
+</a>
+
             </div>
           </motion.div>
 
